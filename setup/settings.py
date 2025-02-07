@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'galeria.apps.GaleriaConfig',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,12 @@ WSGI_APPLICATION = "setup.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql_psycop2",
+        "NAME": "db_alura_space",
+        'USER': 'admin',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': ''
     }
 }
 
@@ -124,6 +129,11 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT =  os.path.join(BASE_DIR,'static')
+
+#Media
+MEDIA_ROOT = os.path.join(BASE_DIR,"media")
+
+MEDIA_URL = '/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
