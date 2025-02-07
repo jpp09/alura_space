@@ -78,7 +78,7 @@ WSGI_APPLICATION = "setup.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql_psycop2",
+        "ENGINE": "django.db.backends.postgresql",
         "NAME": "db_alura_space",
         'USER': 'admin',
         'PASSWORD': 'NwCagfkzwA3vADbUOT4voFFl3tIiiB1F',
