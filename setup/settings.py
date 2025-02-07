@@ -82,7 +82,7 @@ DATABASES = {
         "NAME": "db_alura_space",
         'USER': 'admin',
         'PASSWORD': 'NwCagfkzwA3vADbUOT4voFFl3tIiiB1F',
-        'HOST': 'dpg-cuiuhclumphs73bjbbp0-a.oregon-postgres.render.com/alura_space_wfum',
+        'HOST': 'dpg-cuiuhclumphs73bjbbp0-a.oregon-postgres.render.com',
         'PORT': '5432'
     }
 }
