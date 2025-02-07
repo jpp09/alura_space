@@ -79,7 +79,7 @@ WSGI_APPLICATION = "setup.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "db_alura_space",
+        "NAME": "alura_space_wfum",
         'USER': 'admin',
         'PASSWORD': 'NwCagfkzwA3vADbUOT4voFFl3tIiiB1F',
         'HOST': 'dpg-cuiuhclumphs73bjbbp0-a.oregon-postgres.render.com',
