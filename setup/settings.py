@@ -81,9 +81,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql_psycop2",
         "NAME": "db_alura_space",
         'USER': 'admin',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': ''
+        'PASSWORD': 'NwCagfkzwA3vADbUOT4voFFl3tIiiB1F',
+        'HOST': 'postgresql://admin:NwCagfkzwA3vADbUOT4voFFl3tIiiB1F@dpg-cuiuhclumphs73bjbbp0-a.oregon-postgres.render.com/alura_space_wfum',
+        'PORT': '5432'
     }
 }
 
